@@ -1,0 +1,27 @@
+.statistics {
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background-color: #fff;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(128, 128, 128);
+  font-variant-caps: all-small-caps;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.statList {
+  display: flex;
+  flex-direction: row;
+  /* flex-basis: 50px; */
+  /* justify-content: space-evenly; */
+}
