@@ -11,14 +11,16 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
+        gap: '10px',
         flexDirection: 'column',
-        justifyContent: 'space-evenly',
+        // justifyContent: 'space-evenly',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
         backgroundColor: '#f5f4fa',
+        padding: '50px',
       }}
     >
       <Profile
@@ -32,7 +34,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
-      {/* <TransactionHistory items={transactions} /> */}
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
