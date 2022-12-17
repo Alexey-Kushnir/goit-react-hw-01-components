@@ -1,3 +1,6 @@
+/* .transactionHistoryTable {
+} */
+
 tr:nth-child(even) {
   background: rgba(151, 180, 212, 0.358);
 }
