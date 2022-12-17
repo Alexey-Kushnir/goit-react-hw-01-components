@@ -1,3 +1,9 @@
-.tableBoduItem {
-  font-size: 15px;
+tr:nth-child(even) {
+  background: rgba(151, 180, 212, 0.358);
+}
+
+td {
+  font-size: 20px;
+  text-align: center;
+  color: grey;
 }

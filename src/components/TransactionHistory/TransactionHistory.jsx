@@ -4,12 +4,12 @@ import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
   return (
-    <table className={css.transactionHistory}>
+    <table>
       <thead>
         <tr>
-          <th className={css.tableHeaderItem}>Type</th>
-          <th className={css.tableHeaderItem}>Amount</th>
-          <th className={css.tableHeaderItem}>Currency</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Currency</th>
         </tr>
       </thead>
       <tbody>
