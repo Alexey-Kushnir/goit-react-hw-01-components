@@ -15,15 +15,20 @@
   margin-bottom: 8px;
 } */
 
-.onlineStatus {
+/* .onlineStatus {
   display: block;
   width: 15px;
   height: 15px;
   border-radius: 50px;
   margin-right: 5px;
-}
+} */
 
-/* .online {
+.online {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-right: 5px;
   display: block;
   height: 30px;
   width: 30px;
@@ -32,10 +37,15 @@
 
 .offline {
   display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-right: 5px;
+  display: block;
   height: 30px;
   width: 30px;
   background-color: red;
-} */
+}
 
 .avatar {
   margin-right: 10px;
